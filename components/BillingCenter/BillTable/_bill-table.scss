@@ -1,0 +1,76 @@
+.billing__content{
+  .card{
+      border-radius: 12px;
+      border: 0;
+      background-color: $white;
+      box-shadow: 0px 23px 44px rgba(176, 183, 195, 0.14);
+  }
+  
+  .card-body{
+      padding: 31px 24px;
+  }
+}
+
+.billing__content__body{
+  min-height: 790px;
+}
+
+.billing__content__table{
+  overflow-x: auto;
+}
+
+.billing__content__table table{
+  width: 100%;
+  thead > tr{
+      border: none;
+      box-shadow: none;
+  }
+  thead th{
+      padding: 12px 16px;
+      white-space: nowrap;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #171717;
+  }
+  tbody td{
+      white-space: nowrap;
+      text-align: left;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+      color: $titleBlackColor;
+  }
+  tbody td{
+      padding: 16px 16px 13px 16px;
+      border-bottom: 1px solid $borderColor;
+  }
+  
+  thead th,
+  tbody td{
+      &:nth-child(3){min-width: 220px;}
+  }
+}
+
+.billing__content__table table{
+  .bill-no{
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: $textColor;
+  }
+  
+  .total,
+  .shipping-cost,
+  .notecard-cost{
+      font-family: 'Manrope', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      color: $titleColor;
+  }
+}

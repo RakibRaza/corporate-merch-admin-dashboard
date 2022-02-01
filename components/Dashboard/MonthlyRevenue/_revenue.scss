@@ -1,0 +1,74 @@
+.revenue-chart__top{
+  h2{
+      font-family: 'Manrope', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      color: $textColor;
+      margin-bottom: 12px;
+  }
+}
+
+.revenue-chart__content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.revenue-chart__left{
+  h2{
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+      color: $titleColor;
+      @include breakpoint(480px){
+          font-size: 20px;
+      }
+  }
+}
+
+.revenue-chart__right{
+  p{
+      margin-bottom: 0;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: $textColor;
+  }
+  
+  .percent-text{
+      margin-bottom: 2px;
+      display: flex;
+      justify-content: flex-end;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: $titleColor;
+      img{
+          margin-right: 5px;
+      }
+  }
+}
+
+.revenue-status__top{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  h2{
+      font-family: 'Manrope', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      color: $titleColor;
+  }
+}
+
+@include breakpoint(991px){
+  .revenue-chart{
+      margin-bottom: 30px;
+  }
+}

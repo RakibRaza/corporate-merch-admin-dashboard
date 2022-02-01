@@ -1,0 +1,115 @@
+.shipment__content{
+  .card{
+      border-radius: 12px;
+      border: 0;
+      background-color: $white;
+      box-shadow: 0px 23px 44px rgba(176, 183, 195, 0.14);
+  }
+  
+  .card-body{
+      padding: 31px 24px;
+  }
+}
+
+.shipment__content__body{
+  min-height: 790px;
+}
+
+.shipment__content__table{
+  overflow-x: auto;
+}
+
+.shipment__content__table table{
+  width: 100%;
+  thead > tr{
+      border: none;
+      box-shadow: none;
+  }
+  thead th{
+      white-space: nowrap;
+      padding: 12px 18px;
+      font-family: 'DM Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #171717;
+  }
+  tbody td{
+      white-space: nowrap;
+      text-align: left;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+      color: $titleBlackColor;
+  }
+  tbody td{
+      padding: 16px 18px 13px 18px;
+      border-bottom: 1px solid $borderColor;
+  }
+
+  thead th,
+  tbody td{
+      &:nth-child(1){min-width: 120px;}
+      &:nth-child(2){min-width: 220px;}
+      &:nth-child(3){min-width: 90px;}
+      &:nth-child(4){min-width: 300px;}
+      &:nth-child(5){min-width: 65px;}
+      &:nth-child(6){min-width: 67px;}
+      &:nth-child(7){min-width: 80px;}
+  }
+}
+.order-id{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: $themeColor;
+}
+
+.product-title{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: $titleColor;
+  img{
+      margin-right: 16px;
+      width: 36px;
+      height: 36px;
+  }
+  select{
+      border: 0;
+      background-color: transparent;
+  }
+}
+
+.delivery-address,
+.postage,
+.quantity{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: $titleColor;
+}
+
+.action-group{
+  display: flex;
+  justify-content: center;
+  a{
+      &:first-child{
+          margin-right: 13px;
+      }
+  }
+}
+
+.fa-edit{
+  color: #8175CD;
+}
+.fa-trash{
+  color: #FF6628;
+}

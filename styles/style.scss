@@ -1,0 +1,75 @@
+
+
+
+/*--------------------------------
+01. Settings style
+--------------------------------*/
+@import 'settings/settings.colors'; 
+@import 'settings/typography'; 
+@import 'settings/settings.breakpoints';
+
+/*--------------------------------
+02. Base style
+--------------------------------*/
+@import 'helper/reset.all'; 
+@import 'helper/helper.theme';
+
+/*--------------------------------
+03. Sections style
+--------------------------------*/
+// loader
+@import "../components/Common/Loader/loader";
+//sidebar section
+@import "../components/Common/Sidebar/sidebar";
+
+//header section
+@import "../components/Common/Header/header";
+
+//Dashboard section
+@import "../components/Dashboard/TopCard/topcard";
+@import "../components/Dashboard/ProductAnalytics/product-analytics";
+@import "../components/Dashboard/MonthlyRevenue/revenue";
+@import "../components/Dashboard/ShipmentStatus/shipment";
+
+//analytic section
+@import "../components/Analytics/NewCustomers/new-customers";
+@import "../components/Analytics/TopProducts/top-products";
+@import "../components/Analytics/ShipmentStatus/shipment";
+
+//client section
+@import "../components/Clients/ClientsTable/clients-table";
+
+//product section
+@import "../components/Products/ProductTable/porduct-table";
+@import "../components/Products/UploadProduct/upload-product";
+@import "../components/Products/AssignClient/assign-client";
+
+//quote request section
+@import "../components/QuoteRequest/QuoteTable/quote-table";
+
+//manage order section
+@import "../components/ManageOrder/OrderTable/order-table";
+
+//Order Details section
+@import "../components/ManageOrder/OrderDetails/order-details";
+
+//shipments section
+@import "../components/Shipments/ShipmentTable/shipment-table";
+
+//billing center section
+@import "../components/BillingCenter/BillTable/bill-table";
+
+
+/*--------------------------------
+04. Components style
+--------------------------------*/
+@import 'components/components.breadcrumb';
+@import 'components/components.sectionHeader';
+@import 'components/components.badges';
+@import 'components/components.buttons';
+@import 'components/components.cards';
+
+/*--------------------------------
+05. Utilities style
+--------------------------------*/
+@import 'utilities/utilites';

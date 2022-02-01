@@ -1,0 +1,57 @@
+//top product section
+.top-product__title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+  .text-link {
+      color: #5542F6;
+  }
+}
+
+.top-product__table{
+  width: 100%;
+  overflow-x: auto;
+  table{
+      width: 100%;
+  }
+  table th{
+      padding: 10px 0px;
+      border-bottom: 1px solid $borderColor;
+      text-transform: uppercase;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      color: $textColor;
+  }
+  
+  table td{
+      padding: 12px 0px;
+      min-width: 50px;
+      &:first-child{
+          min-width: 250px;
+      }
+      &:nth-child(2){
+          min-width: 80px;
+      }
+  }
+  
+  .change,
+  .price,
+  .sold{
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: $titleColor;
+  }
+  
+  .sales{
+      font-family: 'Manrope', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      color: $titleColor;
+  }
+}
